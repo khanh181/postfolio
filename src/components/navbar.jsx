@@ -10,7 +10,7 @@ const links = [
   { url: "/", title: "Home" },
   { url: "/about", title: "About" },
   { url: "/portfolio", title: "Portfolio" },
-  { url: "/contact", title: "Contact" },
+  // { url: "/contact", title: "Contact" },
 ];
 
 const Navbar = () => {
@@ -89,7 +89,7 @@ const Navbar = () => {
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
         <Link href="https://drive.google.com/file/d/16lV8rRpDE1MNeQqptA75u3jrwJKe2Nuz/view?usp=drive_link">
-          <Image src="/cv.png" alt="" width={24} height={24} />
+          <Image src="/resume.png" alt="" width={24} height={24} />
         </Link>
       </div>
       {/* RESPONSIVE MENU */}

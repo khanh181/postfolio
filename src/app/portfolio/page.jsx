@@ -84,7 +84,7 @@ const PortfolioPage = () => {
         </div>
       </div>
       <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-8xl">Do you have a project?</h1>
+        <h1 className="text-8xl mt-1">Have a good day :3</h1>
         <div className="relative">
           <motion.svg
             animate={{ rotate: 360 }}
@@ -105,10 +105,10 @@ const PortfolioPage = () => {
             </text>
           </motion.svg>
           <Link
-            href="/contact"
+            href="/about"
             className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
           >
-            Hire Me
+            About me
           </Link>
         </div>
       </div>
